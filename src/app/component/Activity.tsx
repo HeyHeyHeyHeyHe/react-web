@@ -15,7 +15,7 @@ function Activity() {
       <h1 style={{paddingLeft:50}}><b>Activity</b></h1>
     <div className="Activity" 
     style={{
-      
+      gap:20,
       backgroundColor: "#d3d3d0",
       display: "flex",
       justifyContent: "center",
@@ -34,8 +34,8 @@ function Activity() {
 My experience in "Darling, Darling, Santa is Coming 2023" was both challenging and heartwarming. The preparation involved coordinating donations, planning activities, and ensuring everything would create a joyful, welcoming atmosphere for the community. The experience deepened my appreciation for giving back, especially during the holiday season when bringing happiness to others is the greatest gift. *Image was taken when I was preparing Christmas tree made of velvet wire.</p>
       </div>
       
-      <div className="Activity-right" style={{padding:"300 150"}}>
-      <img src="https://picsum.photos/id/237/200/300" alt=""/>
+      <div className="Activity-right" style={{minWidth:300,display:"flex",alignItems:"center"}}>
+      <img src="https://picsum.photos/id/237/200/300" alt="" />
       </div>
     </div>
     </div>

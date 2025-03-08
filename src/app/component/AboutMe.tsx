@@ -41,13 +41,13 @@ function AboutMe() {
         </div>
       </div>
       <div className="Aboutme-right"
-      
+      style={{
+        paddingRight:20,
+        minWidth:400
+      }}
       >
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkh4PJaZ5khjPKeSC813IrTVs1JjnjZEFRANxCGp7vPxgsXpkFaSQsFWlULUSTlvTwPOc&usqp=CAU" alt="" 
-        style={{paddingTop: 150,
-          paddingBottom: 150,
-          paddingLeft: 300 
-          }}
+        <img src="https://www.arena-multimedia.vn/wp-content/uploads/2024/04/ky-thuat-chup-anh-phong-canh.jpg" alt="" 
+        
         />
       </div>
     </div>
