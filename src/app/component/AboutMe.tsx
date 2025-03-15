@@ -6,7 +6,7 @@ function AboutMe() {
       className="Aboutme"
       style={{
         
-        backgroundColor: "#d3d3d0",
+        backgroundColor: "#FFF8E1",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -20,11 +20,11 @@ function AboutMe() {
         }}
       >
         <div className="Aboutme-left-row-1">
-          <h1><b>About me</b> </h1>
+          <h1 style={{fontSize:"1.5rem"}}><b>About me</b> </h1>
         </div>
         <div className="Aboutme-left-row-2">
           <p>
-            I was raised in a Middle-class home within a relatively big family, yet I was born the latest. I really do enjoy Running and Deepening myself in thought among the greens of my neighborhood. Besides my physically active lifestyle, I also love learning how things work and exploring myself, thus I can spend hours of my leisure time to watch documentaries or working on something(I tried replicating the surrounding diversity through building terrariums or fixing the electronics inside my room). My dream is to pursue education in US as an Electrical Engineer.
+          Hello. I m a student at Le Quy Don High School for the Gifted in Da Nang. As the youngest child in my family, I ve always been surrounded by love and support. I have a deep passion for science, especially fields like physics, chemistry, and biology. I m endlessly curious about the world around me and love exploring new ideas. I hope to contribute to the advancement of science in the future.
           </p>
           <p>
           My Birth:<b>July 17, 2007</b>
@@ -43,6 +43,7 @@ function AboutMe() {
       <div className="Aboutme-right"
       style={{
         paddingRight:20,
+        paddingLeft:20,
         minWidth:400
       }}
       >

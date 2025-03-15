@@ -35,21 +35,7 @@ export default function Home() {
       <AboutMe />
       <Score />
       <Activity />
-      <div 
-      style={{
-        height:"50vh",
-        backgroundColor: "#d3d3d0",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        gap:20
-      }}
-      >
-      <Project />
-      <Project />
-      <Project />
-      <Project />
-      </div>
+    
       <Footer />
     </div>
     

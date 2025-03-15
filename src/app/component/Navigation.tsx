@@ -10,6 +10,12 @@ function Navigation() {
         paddingBottom: 20,
         paddingLeft: 50,
         paddingRight: 50,
+        position: "fixed",
+        top: 0,
+        width:"100%",
+        backgroundColor:"#E0F2FE",
+        zIndex:100,
+        
     }}>
         <div className='navigation-left' style={{
             display: 'flex',
