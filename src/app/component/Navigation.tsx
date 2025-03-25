@@ -13,7 +13,7 @@ function Navigation() {
         position: "fixed",
         top: 0,
         width:"100%",
-        backgroundColor:"#E0F2FE",
+        backgroundColor:"#FF7043",
         zIndex:100,
         
     }}>
@@ -33,12 +33,12 @@ function Navigation() {
             display: 'flex',
             gap: 20
         }}>
-            <a href='#'>Home</a>
-            <a href='#'>About Me</a>
+            <a href='#Banner'>Home</a>
+            <a href='#AboutMe'>About Me</a>
             <a href='#'>Score</a>
             <a href='#'>Activity</a>
             <a href='#'>Project</a>
-            <a href='#'>Contact</a>
+            <a href='https://chat.zalo.me/index.html'>Contact</a>
         </div>
     </div>
   )

@@ -2,6 +2,7 @@ import React from "react";
 
 function Banner() {
   return (
+    <section id="Banner">
     <div
       className="banner"
       style={{
@@ -38,7 +39,7 @@ function Banner() {
 
         </div>
       </div>
-    </div>
+    </div></section>
   );
 }
 
